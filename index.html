@@ -644,10 +644,6 @@ video {
   width: 100%
 }
 
-.w-max{
-  width: max-content
-}
-
 .max-w-lg{
   max-width: 32rem
 }
@@ -723,9 +719,9 @@ video {
   padding-bottom: 0px
 }
 
-.py-16{
-  padding-top: 4rem;
-  padding-bottom: 4rem
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem
 }
 
 .pb-0{
@@ -756,6 +752,14 @@ video {
   padding-left: 4rem
 }
 
+.pl-2{
+  padding-left: 0.5rem
+}
+
+.pl-3{
+  padding-left: 0.75rem
+}
+
 .pl-4{
   padding-left: 1rem
 }
@@ -766,10 +770,6 @@ video {
 
 .pl-6{
   padding-left: 1.5rem
-}
-
-.pl-8{
-  padding-left: 2rem
 }
 
 .pr-0{
@@ -804,12 +804,24 @@ video {
   padding-top: 4rem
 }
 
+.pt-5{
+  padding-top: 1.25rem
+}
+
+.pt-6{
+  padding-top: 1.5rem
+}
+
 .pt-7{
   padding-top: 1.75rem
 }
 
 .text-left{
   text-align: left
+}
+
+.text-center{
+  text-align: center
 }
 
 .font-sans{
@@ -917,8 +929,12 @@ video {
     padding: 4rem
   }
 
-  .sm\:pb-6{
-    padding-bottom: 1.5rem
+  .sm\:pb-2{
+    padding-bottom: 0.5rem
+  }
+
+  .sm\:pb-5{
+    padding-bottom: 1.25rem
   }
 
   .sm\:text-4xl{
@@ -1031,117 +1047,117 @@ video {
   }
 }
 
+
     </style>
 </head>
 <body>
-    <div>
-        <div isdraggingcomponentin="false" class="canvas-paper">
-          <div class="bg-white pt-0 pr-16 pb-0 pl-16"></div>
-          <div class="bg-black mr-auto ml-auto items-center lg:flex-row md:px-8 h-auto py-16 flex flex-col static">
-            <div class="justify-center items-center w-full h-full lg:w-1/2 lg:justify-end lg:bottom-0 lg:left-0 sm:pb-10
-                lg:items-center flex">
-              <img src="https://i.ibb.co/Sdyn3KD/coding.png" style="border-radius: 30px;" class="object-contain object-top border-0 w-full h-auto lg:w-auto pl-5 pr-5 rounded-b-lg"/>
-            </div>
-            <div class="mr-auto ml-auto justify-end xl:pr-32 lg:max-w-screen-xl flex relative max-w-xl">
-              <div class="mb-16 lg:pr-5 lg:max-w-lg lg:mb-0">
-                <div class="mb-6 pl-16 max-w-xl">
-                  <div class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none mb-6 max-w-lg">
-                    <p class="text-gray-900 text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none"></p>
-                    <p class="text-3xl font-bold tracking-tight mr-2 sm:text-4xl sm:leading-none text-white pb-5 inline-block
-                        font-sans">
-                      &lt;Codify/&gt;
-                      <br/>
-                    </p>
-                    <p></p>
-                    <p class="font-bold tracking-tight sm:leading-none text-2xl text-green-400 pb-1 inline-block">The SNSG
-                        Computer Science Club</p>
-                  </div>
-                  <p class="text-base md:text-lg text-white">This club is all about exploring cool tech, making innovative
-                      projects and learning foundational concepts along the way. Explore this page as it details our branches
-                      and workshops.</p>
-                  <p></p>
-                </div>
-                <div class="md:flex-row flex flex-col"></div>
-                <div class="items-center mt-4 mr-0 mb-0 ml-0 pl-16 flex">
-                  <form action="https://docs.google.com/forms/d/e/1FAIpQLSc7uQ0C4_of2653oGCaZH8fo2xxuU_k0dzMixwYY6CIVoA5kQ/viewform?usp=sf_link"><button fontfamily="Arial" type="submit" class="transition duration-200 focus:shadow-outline
-                      focus:outline-none inline-flex hover:bg-green-900 bg-green-600 text-white font-semibold tracking-wide
-                      h-12 rounded-md shadow-md items-center justify-center pr-6 pl-6 mr-6" >Become a Mentor</button></form>
-                </div>
+  <div>
+    <div isdraggingcomponentin="false" class="canvas-paper">
+      <div class="bg-white pt-0 pr-16 pb-0 pl-16"></div>
+      <div class="bg-black mr-auto ml-auto items-center lg:flex-row md:px-8 h-auto py-2 pt-6 flex flex-col static">
+        <div class="justify-center items-center w-full h-full lg:w-1/2 lg:justify-end lg:bottom-0 lg:left-0 sm:pb-2     lg:items-center flex">
+          <img src="https://i.ibb.co/Sdyn3KD/coding.png" style="border-radius: 30px;" class="object-contain object-top border-0 w-full h-auto lg:w-auto pl-5 pr-5 rounded-b-lg"/>
+        </div>
+        <div class="mr-auto ml-auto justify-end xl:pr-32 lg:max-w-screen-xl flex relative max-w-xl">
+          <div class="mb-16 lg:pr-5 lg:max-w-lg lg:mb-0">
+            <div class="mb-6 pl-3 pt-5 max-w-xl">
+              <div class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none mb-6 max-w-lg">
+                <p class="text-gray-900 text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none"></p>
+                <p class="text-3xl font-bold tracking-tight mr-2 sm:text-4xl sm:leading-none text-white pb-5 inline-block font-sans text-center w-full">
+                  &lt;Codify/&gt;
+                  <br/>
+                </p>
+                <p></p>
+                <p class="font-bold tracking-tight sm:leading-none text-2xl text-green-400 pb-1 inline-block text-center w-full">The SNSG
+                    Computer Science Club</p>
               </div>
+              <p class="text-base md:text-lg text-white w-full text-center">This club is all about exploring cool tech, making innovative
+                  projects and learning foundational concepts along the way. Explore this page as it details our branches
+                  and workshops.</p>
+              <p></p>
+            </div>
+            <div class="md:flex-row flex flex-col"></div>
+            <div class="items-center mt-4 mr-0 mb-0 ml-0 pl-2 flex justify-center">
+              <form action="https://docs.google.com/forms/d/e/1FAIpQLSc7uQ0C4_of2653oGCaZH8fo2xxuU_k0dzMixwYY6CIVoA5kQ/viewform?usp=sf_link"><button fontfamily="Arial" type="submit" class="transition duration-200 focus:shadow-outline
+                  focus:outline-none inline-flex hover:bg-green-900 bg-green-600 text-white font-semibold tracking-wide
+                  h-12 rounded-md shadow-md items-center justify-center pr-6 pl-6 mr-6 w-full" >Become a Mentor</button></form>
             </div>
           </div>
-          <div class="bg-black mr-auto ml-auto pt-0 h pr-4 pb-0 sm:pb-5 pl-4 md:max-w-full md:px-24 lg:px-8 w-full">
-            <div rounded="md" class="shadow-xl pt-0 pr-0 pb-0 pl-0 sm:p-16 w-full">
-              <div class="lg:flex-row flex flex-col w-full">
-                <div class="lg:mb-0 lg:w-1/2 lg:pr-5 mb-6">
-                  <div>
-                    <p class="text-3xl font-bold tracking-tight text-white leading-6 sm:text-4xl block font-sans">Upcoming
-                        --&gt;</p>
-                    <p class="text-green-400 text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none inline
-                        font-sans">Club Introduction @ WCH</p>
-                  </div>
-                </div>
-                <div class="lg:w-1/2">
-                  <p class="mb-4 text-xl text-left text-white">Join us as we give a brief outline of our club to senior school
-                      students and teachers on Friday, 12th April!</p>
-                </div>
+        </div>
+      </div>
+      <div class="bg-black mr-auto ml-auto pt-0 h pr-4 pb-0 sm:pb-5 pl-4 md:max-w-full md:px-24 lg:px-8 w-full">
+        <div rounded="md" class="shadow-xl pt-0 pr-0 pb-0 pl-0 sm:p-16 w-full">
+          <div class="lg:flex-row flex flex-col w-full">
+            <div class="lg:mb-0 lg:w-1/2 lg:pr-5 mb-6">
+              <div>
+                <p class="text-3xl font-bold tracking-tight text-white leading-6 sm:text-4xl block font-sans">Upcoming
+                    --&gt;</p>
+                <p class="text-green-400 text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none inline
+                    font-sans">Club Introduction @ WCH</p>
               </div>
+            </div>
+            <div class="lg:w-1/2">
+              <p class="mb-4 text-xl text-left text-white">Join us as we give a brief outline of our club to senior school
+                  students and teachers on Friday, 12th April!</p>
             </div>
           </div>
-          <div class="w-full bg-black pr-4 pl-4 text-black pb-16">
-            <div class="mt-0 mr-auto mb-0 ml-auto text-left md:text-center md:w-3/4 lg:w-2/4 bg-black">
-              <p hashtml class="mt-0 mr-0 mb-6 ml-0 text-3xl font-bold text-white bg-black">
-                Become a student mentor to take  <br> this club to the next level --&gt;
-              </p>
-              <p>Lorem ipsum</p>
-              <p></p>
-              <p></p>
-              <div class="mt-- mr-- mb-0 ml-- md:space-x-2 space-x-0">
-                <form action="https://docs.google.com/forms/d/e/1FAIpQLSc7uQ0C4_of2653oGCaZH8fo2xxuU_k0dzMixwYY6CIVoA5kQ/viewform?usp=sf_link"><button fontfamily="Arial" type="submit" class="transition duration-200 hover:bg-green-900
-                    focus:shadow-outline focus:outline-none inline-flex bg-green-600 text-white font-semibold tracking-wide
-                    h-12 rounded-md shadow-md items-center justify-center pr-6 pl-6 mr-6" >Apply Now</button></form>
+        </div>
+      </div>
+      <div class="w-full bg-black pr-4 pl-4 text-black pb-16">
+        <div class="mt-0 mr-auto mb-0 ml-auto text-left md:text-center md:w-3/4 lg:w-2/4 bg-black">
+          <p hashtml class="mt-0 mr-0 mb-6 ml-0 text-3xl font-bold text-white bg-black">
+            Become a student mentor to take  <br> this club to the next level --&gt;
+          </p>
+          <p></p>
+          <p></p>
+          <div class="mt-- mr-- mb-0 ml-- md:space-x-2 space-x-0">
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSc7uQ0C4_of2653oGCaZH8fo2xxuU_k0dzMixwYY6CIVoA5kQ/viewform?usp=sf_link"><button fontfamily="Arial" type="submit" class="transition duration-200 hover:bg-green-900
+                focus:shadow-outline focus:outline-none inline-flex bg-green-600 text-white font-semibold tracking-wide
+                h-12 rounded-md shadow-md items-center justify-center pr-6 pl-6 mr-6" >Apply Now</button></form>
+          </div>
+        </div>
+        <p class="text-white mb-4 text-xl text-left pl-2 pr-8 pt-7 pb-5">Computer science is a vast field, and we explore 3
+            main branches of it:</p>
+        <p></p>
+        <p class="text-white mb-4 text-left text-2xl font-bold pl-2 py-0">Artificial Intelligence</p>
+        <p class="text-white mb-4 text-xl text-left pl-2">Our newest branch, it focuses on creating, exploring and
+            understanding Artificial Intelligence. We will learn to use various easy-to-understand tools created by
+            Google, MIT, STEMpedia, etc. to create actual AI models that solve real-world problems. (No prior programming
+            experience required)</p>
+        <p class="text-white mb-4 text-left text-2xl font-bold pl-2 py-0">Python (Basic and Advanced)</p>
+        <p class="text-white mb-4 text-xl text-left pl-2">Learning text-based programming can enhance your critical
+            thinking skills and give you the skillset to make programs and applications do various tasks. Here, we will
+            explore the logical foundations of programming with a language known as Python. After you have a strong grasp
+            on the foundations of Python, you can take your programming skills to the next level exploring logic gates,
+            data analysis, the nuances of Python, etc. (Some python experience is preferable)</p>
+        <p class="text-white mb-4 text-left text-2xl font-bold pl-2 py-0">Game Development with Unity</p>
+        <p class="text-white mb-4 text-xl text-left pl-2 pb-2">Programming can be fun, too! Here, we will learn to create
+            basic games and environments using a game engine called Unity. You will create many projects, learning the
+            fundamental aspects of the application and logic in the process.</p>
+        <div rounded="md" class="shadow-xl pt-16 pr-0 pb-0 pl-0 sm:p-16">
+          <div class="lg:flex-row flex flex-col">
+            <div class="lg:mb-0 lg:w-1/2 lg:pr-5 mb-6">
+              <div>
+                <p class="text-3xl font-bold tracking-tight text-white leading-6 sm:text-4xl block font-sans">Have any
+                    questions?</p>
+                <p class="text-green-400 text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none inline
+                    font-sans">Get in touch!</p>
               </div>
             </div>
-            <p class="text-white mb-4 text-xl text-left pl-8 pr-8 pt-7 pb-5">Computer science is a vast field, and we explore 3
-                main branches of it:</p>
-            <p></p>
-            <p class="text-white mb-4 text-left text-2xl font-bold pl-16 py-0">Artificial Intelligence</p>
-            <p class="text-white mb-4 text-xl text-left pl-16">Our newest branch, it focuses on creating, exploring and
-                understanding Artificial Intelligence. We will learn to use various easy-to-understand tools created by
-                Google, MIT, STEMpedia, etc. to create actual AI models that solve real-world problems. (No prior programming
-                experience required)</p>
-            <p class="text-white mb-4 text-left text-2xl font-bold pl-16 py-0">Python (Basic and Advanced)</p>
-            <p class="text-white mb-4 text-xl text-left pl-16">Learning text-based programming can enhance your critical
-                thinking skills and give you the skillset to make programs and applications do various tasks. Here, we will
-                explore the logical foundations of programming with a language known as Python. After you have a strong grasp
-                on the foundations of Python, you can take your programming skills to the next level exploring logic gates,
-                data analysis, the nuances of Python, etc. (Some python experience is preferable)</p>
-            <p class="text-white mb-4 text-left text-2xl font-bold pl-16 py-0">Game Development with Unity</p>
-            <p class="text-white mb-4 text-xl text-left pl-16 pb-2">Programming can be fun, too! Here, we will learn to create
-                basic games and environments using a game engine called Unity. You will create many projects, learning the
-                fundamental aspects of the application and logic in the process.</p>
-            <div rounded="md" class="shadow-xl pt-16 pr-0 pb-0 pl-0 sm:p-16">
-              <div class="lg:flex-row flex flex-col">
-                <div class="lg:mb-0 lg:w-1/2 lg:pr-5 mb-6">
-                  <div>
-                    <p class="text-3xl font-bold tracking-tight text-white leading-6 sm:text-4xl block font-sans">Have any
-                        questions?</p>
-                    <p class="text-green-400 text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none inline
-                        font-sans">Get in touch!</p>
-                  </div>
-                </div>
-                <div class="lg:w-1/2">
-                  <p class="mb-4 text-xl text-left text-white">Pranet Khetan - khetanpranetsns@gmail.com</p>
-                  <p class="mb-4 text-left text-xl text-white">Shaurya Seam - shauryaseam@gmail.com</p>
-                  <p></p>
-                </div>
-              </div>
-              
+            <div class="lg:w-1/2">
+              <p class="mb-4 text-xl text-left text-white">Pranet Khetan - khetanpranetsns@gmail.com</p>
+              <p class="mb-4 text-left text-xl text-white">Shaurya Seam - shauryaseam@gmail.com</p>
+              <p></p>
             </div>
-            <p class="text-white">Website designed by Pranet Khetan</p>
           </div>
           
         </div>
+        <p class="text-white">Website designed by Pranet Khetan</p>
       </div>
+      
+    </div>
+  </div>
+</body>
+</html>
 </body>
 </html>
